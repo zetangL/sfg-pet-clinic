@@ -1,4 +1,6 @@
 package springframeworkexample.sfgpetclinic.services;
 
-public interface PetTypeService {
+import springframeworkexample.sfgpetclinic.model.PetType;
+
+public interface PetTypeService extends CrudService<PetType, Long>{
 }
